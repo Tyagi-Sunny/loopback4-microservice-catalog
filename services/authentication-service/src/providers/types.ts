@@ -3,7 +3,12 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 import {DataObject} from '@loopback/repository';
-import {IAuthClient, IAuthUser, Keycloak} from 'loopback4-authentication';
+import {
+  Cognito,
+  IAuthClient,
+  IAuthUser,
+  Keycloak,
+} from 'loopback4-authentication';
 import * as AppleStrategy from 'passport-apple';
 import * as FacebookStrategy from 'passport-facebook';
 import * as GoogleStrategy from 'passport-google-oauth20';
@@ -17,6 +22,7 @@ import {
   UserRelations,
 } from '../models';
 import {AuthUser, OtpResponse} from '../modules/auth';
+import {SignOptions, VerifyOptions} from 'jsonwebtoken';
 
 export interface GoogleSignUpFn {
   (profile: GoogleStrategy.Profile): Promise<(User & UserRelations) | null>;
@@ -142,7 +148,6 @@ export interface ForgotPasswordHandlerFn {
 export interface AuthCodeGeneratorFn {
   (client: AuthClient, user: AuthUser): Promise<string>;
 }
-
 export interface MfaCheckFn {
   (user: AuthUser): Promise<boolean>;
 }
@@ -182,3 +187,28 @@ export interface AzureAdPostVerifyFn {
     user: IAuthUser | null,
   ): Promise<IAuthUser | null>;
 }
+
+export interface CognitoPreVerifyFn {
+  (
+    accessToken: string,
+    refreshToken: string,
+    profile: Cognito.Profile,
+    user: IAuthUser | null,
+  ): Promise<IAuthUser | null>;
+}
+
+export interface CognitoPostVerifyFn {
+  (profile: Cognito.Profile, user: IAuthUser | null): Promise<IAuthUser | null>;
+}
+
+export interface CognitoSignUpFn {
+  (profile: Cognito.Profile): Promise<(User & UserRelations) | null>;
+}
+export type JWTSignerFn<T> = (
+  payload: T,
+  options: SignOptions,
+) => Promise<string>;
+export type JWTVerifierFn<T> = (
+  token: string,
+  options: VerifyOptions,
+) => Promise<T>;
