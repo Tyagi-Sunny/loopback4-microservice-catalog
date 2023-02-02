@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>7.0.5 (2023-02-01)</small>
+
+**Note:** Version bump only for package @sourceloop/payment-service
+
+
+
+
+
+## <small>7.0.4 (2023-01-31)</small>
+
+* chore(deps): updating the loopback4-authentication package (#1260) ([99887d6](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/99887d6)), closes [#1260](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1260) [#1259](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1259) [#1259](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1259)
+
+
+
+
+
+## <small>7.0.3 (2023-01-20)</small>
+
+**Note:** Version bump only for package @sourceloop/payment-service
+
+
+
+
+
+## <small>7.0.2 (2023-01-17)</small>
+
+* chore(deps): loopback and sourceloop version update (#1211) ([3086a5b](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/3086a5b)), closes [#1211](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1211) [#1206](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1206)
+* docs(core): add mkdocs and typedoc configuration (#1193) ([4b348b1](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/4b348b1)), closes [#1193](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1193) [#1192](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1192)
+
+
+
+
+
+## <small>7.0.1 (2023-01-12)</small>
+
+* chore(deps): loopback and sourceloop version update (#1195) ([ea9bb21](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/ea9bb21)), closes [#1195](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1195) [#1194](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1194) [#1194](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1194)
+
+
+
+
+
 ## 7.0.0 (2022-12-21)
 
 * refactor(chore): changes in the docker-compose (#1123) ([5704835](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/5704835)), closes [#1123](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1123) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00)

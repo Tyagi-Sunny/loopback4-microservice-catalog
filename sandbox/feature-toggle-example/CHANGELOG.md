@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.6.6 (2023-02-01)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
+## <small>0.6.5 (2023-01-31)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
+## <small>0.6.4 (2023-01-23)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
+## <small>0.6.3 (2023-01-20)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
+## <small>0.6.2 (2023-01-17)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
+## <small>0.6.1 (2023-01-12)</small>
+
+**Note:** Version bump only for package @sourceloop/feature-toggle-example
+
+
+
+
+
 ## 0.6.0 (2022-12-21)
 
 * refactor(chore): changes in the docker-compose (#1123) ([5704835](https://github.com/sourcefuse/loopback4-microservice-catalog/commit/5704835)), closes [#1123](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/1123) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00) [#00](https://github.com/sourcefuse/loopback4-microservice-catalog/issues/00)
